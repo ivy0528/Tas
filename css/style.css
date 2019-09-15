@@ -31,8 +31,8 @@ input[type="submit"],input[type="reset"],a{
     -o-transition: 0.5s ease-in;
     transition:0.5s ease-in;
 }
-img{
-	width:40%;
+.headder-w3 img{
+	width:50%;
 }
 
 /*--Banner stats here--*/
@@ -88,7 +88,7 @@ ul.nav.navbar-nav li a:hover, .navbar-default .navbar-nav > li > a:focus {
     -ms-transition: 0.5s all;
 }
 .navbar-fixed-top {
-    top: 93px;
+    top: 158px;
 }
 ul.dropdown-menu {
     top: 101%;
@@ -3108,7 +3108,7 @@ ul.nav.navbar-nav li a {
     padding-top: 6px;
 }
 .navbar-fixed-top {
-    top: 200px;
+    top: 201px;
 }
 .heading-agileinfo span {
     letter-spacing: 1px;
