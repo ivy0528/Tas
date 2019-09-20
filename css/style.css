@@ -111,7 +111,7 @@ ul.dropdown-menu {
 /*--end nav bar--*/
 .w3-agile-logo {
     padding: 1em 2em 3.8em 2em;
-    background: rgba(10, 100, 185, 0.5);
+    background: rgba(10, 100, 185, 0.7);
 }
 .head-wl {
     text-align: center;
@@ -1187,6 +1187,10 @@ h3.agileits-icons-title {
     word-wrap: break-word;
 	    color: #777;
 }
+thead tr .titletab {
+	color: #333333;font-size: 100px;
+}
+
 @media (max-width:991px){
 
 		.headder-w3 img{
@@ -1375,7 +1379,7 @@ section#tables  p {
 }
 .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
 	font-size: 0.9em;
-	color: #999;
+	color: #222222;
 	border-top: none !important;
 }
 .tab-content > .active {
@@ -1486,6 +1490,7 @@ h2.typoh2 {
 	}
 .table h3 {
 	font-size: 20px;
+	color: #FF6700;
 }
 .label {
 	font-size: 53%;
@@ -2191,7 +2196,6 @@ button.close {
 @media screen and (max-width: 1280px){
 .w3-agile-logo {
     padding: 1em 2em 4em 2em;
-    background: rgba(10, 100, 185, 0.5);
 }
 		.headder-w3 img{
 	width:57%;
@@ -2212,7 +2216,6 @@ button.close {
 @media screen and (max-width: 1180px){
 .w3-agile-logo {
     padding: 1em 2em 6em 2em;
-    background: rgba(10, 100, 185, 0.5);
 }
 		.headder-w3 img{
 	width:62%;
@@ -2221,7 +2224,6 @@ button.close {
 @media screen and (max-width: 1080px){
 		.w3-agile-logo {
     padding: 1em 2em 6em 2em;
-    background: rgba(10, 100, 185, 0.5);
 }
 		.headder-w3 img{
 	width:62%;
@@ -2295,7 +2297,6 @@ button.close {
 @media screen and (max-width: 1024px){
 		.w3-agile-logo {
     padding: 1em 2em 5em 2em;
-    background: rgba(10, 100, 185, 0.5);
 }
 	.banner-dott1 {
 		min-height: 485px;
@@ -2304,7 +2305,6 @@ button.close {
 @media screen and (max-width: 991px){
 .w3-agile-logo {
     padding: 1em 2em 4em 2em;
-    background: rgba(10, 100, 185, 0.5);
 }
 		.headder-w3 img{
 	width:65%;
@@ -2486,7 +2486,6 @@ h6.caption {
 @media screen and (max-width: 900px){
 	.w3-agile-logo {
     padding: 1em 2em 4em 2em;
-    background: rgba(10, 100, 185, 0.5);
 }
 	section.portfolio-agileinfo .nav-tabs > li:nth-child(1) {
 		margin-left: 16em;
@@ -2767,6 +2766,12 @@ nav.navbar.navbar-default.navbar-fixed-top {
 .heading-agileinfo {
     letter-spacing: 2px;
     font-size: 36px;
+    margin-bottom: 2em;
+	color: #FF6E00;
+}
+	.heading-agileinfo2 {
+    letter-spacing: 2px;
+    font-size: 100px;
     margin-bottom: 2em;
 }
 .flex-active-slide p {
